@@ -1,0 +1,121 @@
+body {
+    background-color: #58d2f4;
+    color: #974e77;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #1d85ae;
+}
+
+.btn {
+    display: block;
+    background-color: #aa0d6e;
+    color: rgb(1, 1, 1);
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e369a0;
+    transform: scale(1.02);
+}
+
+/* DESAFIO: Estilize o botão especial */
+.destaque :hover{
+    background-color: #ca5cfd;
+    color: #ca5cfd;
+    font-weight: bold;
+    border: 1px solid #d54cff;
+    border-radius: 10px;
+}
+.area-contato {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.btn-msg {
+    display: inline-block;
+    background-color: #f373cc;
+    color: rgb(200, 200, 200);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-msg:hover {
+    background-color: #87d2fdc6;
+    transform: scale(1.1);
+}
+
+.campo-texto {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2f81d3;
+    color: #020c06;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    color: rgba(255,255,255, 0.8);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.erro {
+    color: #000000;
+    background: #330000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sucesso {
+    color: #1e1ebb;
+    background: #003311;
+    padding: 10px;
+    border-radius: 5px;
+}

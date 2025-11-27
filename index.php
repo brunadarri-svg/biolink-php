@@ -1,12 +1,14 @@
 <?php
     // --- DADOS DO PERFIL (PREENCHA COM SEUS DADOS) ---
-    $nome = "BrunaDarri";
-    $bio ="Jogadora de FF😜<br>
-    Fã da ana castela e o zé felipe❤️<br>
-    2025 é nosso🙌";
-    $imagem = "https://i.pinimg.com/736x/88/4e/9a/884e9a6a8c27b96d90d94d5909da6945.jpg"; // Pegue o link da SUA foto.
+    $nome = "@Virginia Fonseca";
+    $bio ="mãe solo de 3:🩷🩵🩷<br>
+    ceo:@wepink🩷<br>
+    2025 é nosso toda honra e gloria a Deus🙌<br>
+    vivendo minha melhor versão @vinijr💍⚽<br>
+    parceria via direct💌";
+    $imagem = "https://i.pinimg.com/736x/84/09/e0/8409e0458b91c51eba2096d68cfacf08.jpg"; // Pegue o link da SUA foto.
      $links = [
-        "Instagram" => "https://instagram.com/bruna.darri",
+        "Instagram" => "https://instagram.com/https://www.instagram.com/virginia/,",
         "WhatsApp"  => "https://wa.me/17992178668",
         "Meu Jogo Favorito" => "https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=pt_BR",
         "Música do Momento" => "https://www.youtube.com/watch?v=7A9txo_yLJ4&list=RD7A9txo_yLJ4&start_radio=1"
@@ -19,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BioLink de <?php echo $nome; ?></title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -44,6 +46,9 @@
                       </a>";
             }
             ?>
+        </div>
+          <div class="area-contato">
+            <a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
         </div>
     </div>
 </body>
